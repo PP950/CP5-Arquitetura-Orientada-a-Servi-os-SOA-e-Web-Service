@@ -1,0 +1,3 @@
+ALTER TABLE instrucoes
+    ADD COLUMN status VARCHAR(20) NOT NULL DEFAULT 'AGENDADA',
+    ADD COLUMN motivo_cancelamento VARCHAR(30);
